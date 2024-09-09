@@ -1,6 +1,6 @@
 // app/categories/layout.tsx
-import React from 'react';
-import styles from './layout.module.scss';
+
+import './layout.css';
 
 export default function CategoriesLayout({
   children,
@@ -8,8 +8,8 @@ export default function CategoriesLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={styles.container}>
-      <aside className={styles.sidebar}>
+    <div className="container">
+      <aside className="sidebar">
         <h2>Kategorier</h2>
         <ul>
           <li><a href="/categories/jul">Jul</a></li>
@@ -17,7 +17,7 @@ export default function CategoriesLayout({
           <li><a href="/categories/mobler">Möbler</a></li>
         </ul>
       </aside>
-      <main className={styles.mainContent}>{children}</main>
+      <main className="mainContent">{children}</main>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import jul  from '../../../data/jul.json';
-import styles from './Jul.module.scss'
+import './Jul.css'
 import Image from 'next/image';
 
 type Item = {
@@ -12,7 +12,7 @@ type Item = {
 
 export default function Page() {
   return (
-    <main className={styles.main}>
+    <main className="main">
       <div>
         <p>Hej</p>
       </div>
