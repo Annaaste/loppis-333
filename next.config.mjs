@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable image optimization
   },
+  basePath: '/loppis-333',
 };
 
 export default nextConfig;
