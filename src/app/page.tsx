@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import './page.css';
 import items  from '../../data/items.json';
 import Image from 'next/image';
 
@@ -12,7 +12,7 @@ type Item = {
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="main">
       <div>
         <p>Hej</p>
       </div>
