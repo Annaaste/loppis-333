@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Jacka",
+    "description": "Rosa jacka i storlek 160",
+    "image": "/images/taxbild.jpg",
+    "price": 500
+  },
+  {
+    "id": 1,
+    "title": "Jacka",
+    "description": "Rosa jacka i storlek 160",
+    "image": "/images/taxbild.jpg",
+    "price": 500
+  },
+  {
+    "id": 1,
+    "title": "Jacka",
+    "description": "Rosa jacka i storlek 160",
+    "image": "/images/taxbild.jpg",
+    "price": 500
+  },
+  {
+    "id": 1,
+    "title": "Jacka",
+    "description": "Rosa jacka i storlek 160",
+    "image": "/images/taxbild.jpg",
+    "price": 500
+  }
+]
