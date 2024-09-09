@@ -20,7 +20,7 @@ export default function Home() {
       {items.map((item: Item) => (
         <div key={item.id}>
           <Image
-              src={item.image}
+              src="/images/taxbild.jpg"
               alt={item.title}
               width={200} // Adjust the width as needed
               height={200} // Adjust the height as needed
