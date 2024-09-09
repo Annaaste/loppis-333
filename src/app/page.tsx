@@ -1,4 +1,4 @@
-import styles from "./page.module.scss";
+import styles from "./page.module.css";
 import items  from '../../data/items.json';
 import Image from 'next/image';
 

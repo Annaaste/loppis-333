@@ -5,10 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable image optimization
   },
-  experimental: {
-    // Detta kan behövas för att korrekt hantera CSS och SCSS
-    scss: true,
-  },
 };
 
 export default nextConfig;
